@@ -5,5 +5,9 @@ get '/home' do
 end
 
 get '/portfolio' do
-  erb :gallery 
+  erb :gallery
+end
+
+get '/about_me' do
+  erb :about
 end
